@@ -1,0 +1,16 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.loginPlaceholder{
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+.loginFrame{
+    font-size: larger;
+}
+
+  

@@ -1,0 +1,15 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(26, 30, 35);
+    margin-left: -24px;
+    margin-right: -24px;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.stretch{
+    width: unset;
+}

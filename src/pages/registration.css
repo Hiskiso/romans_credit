@@ -1,0 +1,33 @@
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.registrationPlaceholder {
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.registrationFrame {
+    font-size: larger;
+    width: 100%;
+}
+
+.registrationItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.registrationDescription {
+    margin-left: 17px;
+    white-space: nowrap;
+}
+
+@media (max-width: 1280px) {
+    .registrationDescription {
+        font-size: small;
+        white-space: unset;
+    }
+}

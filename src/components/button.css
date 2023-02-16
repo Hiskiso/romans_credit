@@ -1,0 +1,23 @@
+.Button{
+
+    font-family: VTBGroupUI, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: large;
+    font-style: normal;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 100%;
+    background-color: rgb(71, 137, 235);
+    color: rgb(255, 255, 255);
+    padding: 20px 32px;
+    border: none;
+    user-select: none;
+    outline-offset: 2px;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+}

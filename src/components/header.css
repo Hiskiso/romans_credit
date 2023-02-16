@@ -1,0 +1,62 @@
+.header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    background: rgba(37, 37, 37, .7);
+    border-radius: 0 0 0.9375rem 0.9375rem;
+    height: 54px;
+}
+
+a {
+    text-decoration: none;
+
+    color: rgb(226, 229, 233);
+    font-family: VTBGroupUI, sans-serif;
+    border-radius: 8px;
+    padding: 6px;
+    /* padding-left: 8px;
+    padding-right: 8px; */
+}
+
+.profilePicture{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: rgb(106 119 134);
+}
+
+.active{
+    background: rgb(33, 37, 44);
+    padding: 6px;
+}
+
+.link:hover{
+    background: rgb(33, 37, 44);
+    padding: 6px;
+}
+
+
+.headerLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerImg {
+    margin: 22px;
+}
+
+@media  print { 
+
+    .header{
+        display: none;
+    }
+ }
